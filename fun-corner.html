@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Try the ACSS HTML-and-CSS-only code challenge and explore Computer Science trivia.">
+    <title>Fun Corner | ACSS</title>
+    <link rel="icon" href="images/ACSS-LOGO.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <!-- ===== Shared site header and navigation ===== -->
+    <header class="site-header">
+      <div class="container header-layout">
+        <a class="brand" href="index.html" aria-label="ACSS home"><img class="brand-logo" src="images/ACSS-LOGO.jpg" alt="ACSS official seal" width="1254" height="1254"><span class="brand-copy"><span class="brand-name">ACSS</span><span class="brand-full">Association of Computer Science Students</span></span></a>
+        <input class="nav-toggle" type="checkbox" id="site-menu-toggle" aria-label="Show or hide site navigation">
+        <label class="nav-toggle-label" for="site-menu-toggle"><span class="nav-toggle-icon" aria-hidden="true"></span><span>Menu</span></label>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="foundations.html">Foundations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="fun-corner.html" aria-current="page">Fun Corner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ===== End shared site header ===== -->
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">Learn by playing</span>
+          <h1>Fun Corner</h1>
+          <p>Test your knowledge, take on fun challenges, and discover how much you know about Computer Science.</p>
+          <nav class="jump-links" aria-label="On this page">
+            <a href="#challenge">Code challenge</a>
+            <a href="#trivia">CS trivia</a>
+          </nav>
+        </div>
+      </section>
+      <section class="section" id="challenge">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Code challenge</span>
+            <h2>Test your fundamentals</h2>
+            <p>Pick one answer for each question. Your selection will reveal a short explanation.</p>
+          </div>
+          <div class="quiz-list">
+            <article class="quiz-item">
+              <h3 class="quiz-question">1. What does “CPU” stand for?</h3>
+              <ul class="quiz-options">
+                <li><a href="#q1-correct">Central Processing Unit</a></li>
+                <li><a href="#q1-wrong-1">Computer Personal Unit</a></li>
+                <li><a href="#q1-wrong-2">Central Program Utility</a></li>
+              </ul>
+              <div class="quiz-answer" id="q1-correct">
+                <p class="quiz-result quiz-result--correct"><strong>Correct!</strong> The Central Processing Unit executes instructions in a computer.</p>
+              </div>
+              <div class="quiz-answer" id="q1-wrong-1">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> Think about the component that processes instructions.</p>
+              </div>
+              <div class="quiz-answer" id="q1-wrong-2">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> “Utility” is not part of the abbreviation.</p>
+              </div>
+            </article>
+            <article class="quiz-item">
+              <h3 class="quiz-question">2. Which element links an external stylesheet in HTML5?</h3>
+              <ul class="quiz-options">
+                <li><a href="#q2-wrong-1"><code>&lt;style src="..."&gt;</code></a></li>
+                <li><a href="#q2-correct"><code>&lt;link rel="stylesheet"&gt;</code></a></li>
+                <li><a href="#q2-wrong-2"><code>&lt;css href="..."&gt;</code></a></li>
+              </ul>
+              <div class="quiz-answer" id="q2-wrong-1">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> The <code>&lt;style&gt;</code> element is used for CSS written inside an HTML document.</p>
+              </div>
+              <div class="quiz-answer" id="q2-correct">
+                <p class="quiz-result quiz-result--correct"><strong>Correct!</strong> A <code>&lt;link&gt;</code> element in the document head connects an external stylesheet.</p>
+              </div>
+              <div class="quiz-answer" id="q2-wrong-2">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> HTML does not include a <code>&lt;css&gt;</code> element.</p>
+              </div>
+            </article>
+            <article class="quiz-item">
+              <h3 class="quiz-question">3. Which declaration creates a flexible box layout?</h3>
+              <ul class="quiz-options">
+                <li><a href="#q3-correct"><code>display: flex;</code></a></li>
+                <li><a href="#q3-wrong-1"><code>position: flex;</code></a></li>
+                <li><a href="#q3-wrong-2"><code>float: flex;</code></a></li>
+              </ul>
+              <div class="quiz-answer" id="q3-correct">
+                <p class="quiz-result quiz-result--correct"><strong>Correct!</strong> <code>display: flex;</code> establishes a flex formatting context.</p>
+              </div>
+              <div class="quiz-answer" id="q3-wrong-1">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> <code>flex</code> is not a value for the <code>position</code> property.</p>
+              </div>
+              <div class="quiz-answer" id="q3-wrong-2">
+                <p class="quiz-result quiz-result--incorrect"><strong>Not quite.</strong> Flexbox is enabled with the <code>display</code> property.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--tint" id="trivia">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Computer Science trivia</span>
+            <h2>Small facts, big history</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>The famous computer “bug”</h3>
+              <p>In 1947, a moth was found caught in a relay of the Harvard Mark II computer and recorded in the team’s logbook.</p>
+            </article>
+            <article class="card">
+              <h3>Building blocks of the web</h3>
+              <p>HTML stands for HyperText Markup Language, while CSS stands for Cascading Style Sheets—the two technologies used to build this website.</p>
+            </article>
+            <article class="card">
+              <h3>The creator of HTML</h3>
+              <p>Tim Berners-Lee created the first version of HTML in 1991.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="container fun-corner-navigation">
+        <nav class="back-links" aria-label="Related pages">
+            <a href="gallery.html">← Gallery</a>
+            <a href="contact.html">Contact →</a>
+        </nav>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img class="brand-logo" src="images/ACSS-LOGO.jpg" alt="" width="1254" height="1254">
+          <h2>ACSS</h2>
+          <p>Empowering Computer Science students through learning, innovation, collaboration, and responsible leadership.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul class="footer-links">
+            <li><a href="foundations.html">Foundations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="committees.html">Committees</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="fun-corner.html">Fun Corner</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <ul class="footer-links">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mailto:acssofficial.uc@gmail.com">Email</a></li>
+            <li><a href="https://www.facebook.com/ACSS.PNC">Facebook</a></li>
+            <li><a href="https://www.instagram.com/acss.pnc">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 Association of Computer Science Students. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
